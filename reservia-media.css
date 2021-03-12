@@ -1,0 +1,11 @@
+@media (max-width: 1280px)
+{
+    p
+    {
+        border: 1px solid black;
+    }
+}
+#test
+{
+    width:20%;
+}
