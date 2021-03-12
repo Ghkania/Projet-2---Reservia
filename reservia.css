@@ -1,0 +1,40 @@
+#masterdiv
+{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+}
+header
+{
+    border: 1px solid black;
+}
+
+nav
+{
+    border: 1px solid black;
+}
+
+#div1
+{
+    border: 1px solid black;
+}
+
+#div2
+{
+    border: 1px solid black;
+}
+
+aside
+{
+    border: 1px solid black;
+}
+
+#div3
+{
+    border: 1px solid black;
+}
+
+footer
+{
+    border: 1px solid black;
+}
