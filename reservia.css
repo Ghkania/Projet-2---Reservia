@@ -31,6 +31,7 @@ aside
 
 footer
 {
+    background-color:rgb(242, 242, 242);
 }
 
 .object
@@ -52,15 +53,18 @@ nav
 
 .research
 {
+    background-color: rgb(255, 255, 255);
     display: flex;
     color: rgb(255, 0, 0);
     flex-wrap: wrap;
     font-size: 2em;
+    border: 1px black solid;
 }
 
 #research_r
 {
     color: rgb(255, 50, 213);
+    justify-content: center;
 }
 
 .research_p
@@ -75,4 +79,10 @@ nav
     margin: 20px;
     padding: 10px;
     font-size: x-large;
+}
+
+.filtres_info
+{
+    color: blue;
+    font-size: 20px;;
 }
