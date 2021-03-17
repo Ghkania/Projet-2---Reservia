@@ -20,12 +20,6 @@ header
 
 }
 
-.research
-{
-    display: flex;
-    justify-content: center;
-
-}
 
 aside
 {
@@ -56,16 +50,29 @@ nav
     justify-content: space-around;
 }
 
-#research
+.research
 {
     display: flex;
-    flex-direction: column;
     color: rgb(255, 0, 0);
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 2em;
 }
 
-.test
+#research_r
 {
-    color: rgb(255, 0, 125);
+    color: rgb(255, 50, 213);
+}
+
+.research_p
+{
+    width : 100%;
+}
+
+.filtres
+{
+    border: 1px black solid;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px;
+    font-size: x-large;
 }
