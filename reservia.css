@@ -23,6 +23,7 @@ header
 
 aside
 {
+    displa
 }
 
 #div3
@@ -57,19 +58,23 @@ nav
     display: flex;
     color: rgb(255, 0, 0);
     flex-wrap: wrap;
-    font-size: 2em;
     border: 1px black solid;
 }
 
 #research_r
 {
+    display: flex;
     color: rgb(255, 50, 213);
+    width: 100%;
     justify-content: center;
+    font-size: 2em;
+
 }
 
 .research_p
 {
     width : 100%;
+    font-size: 2em;
 }
 
 .filtres
@@ -85,4 +90,23 @@ nav
 {
     color: blue;
     font-size: 20px;;
+}
+
+aside a
+{
+    display: block;
+    border: 1px solid black;
+    justify-content: flex-start;
+
+}
+
+aside a img
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    vertical-align: top;
+}
+aside a p
+{
+
 }
