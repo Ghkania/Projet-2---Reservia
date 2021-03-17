@@ -15,18 +15,16 @@ header
     width: 100px;
 }
 
-nav
-{
-}
-
 #div1
 {
 
 }
 
-#div2
+.research
 {
-    border: 1px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+
 }
 
 aside
@@ -56,4 +54,18 @@ nav
 {
     display: flex;
     justify-content: space-around;
+}
+
+#research
+{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+.test
+{
+    color: rgb(255, 0, 125);
 }
