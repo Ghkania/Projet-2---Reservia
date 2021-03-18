@@ -92,20 +92,16 @@ nav
     font-size: 20px;;
 }
 
-aside a
+aside img 
 {
-    display: block;
+    display: flex;
     border: 1px solid black;
-    justify-content: flex-start;
-
-}
-
-aside a img
-{
+    align-items: top;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    vertical-align: top;
+    padding-right: 200px;
 }
+
 aside a p
 {
 
